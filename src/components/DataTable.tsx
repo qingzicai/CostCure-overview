@@ -9,9 +9,9 @@ function DataTable() {
   return (
     <div className="container mx-auto py-4 font-mono">
       <table className="table-auto w-full text-left">
-        <caption className="mb-6 font-bold text-center text-2xl text-blue-700">Price Compare of the Services</caption>
+        <caption className="mb-6 font-extrabold text-center text-2xl text-blue-700">Price Compare of the Services</caption>
         <thead>
-          <tr>
+          <tr className={'bg-gray-500 text-white'}>
             <th className="px-4 py-2">Health Service Provider</th>
             <th className="px-4 py-2">Location</th>
             <th className="px-4 py-2">Phone</th>

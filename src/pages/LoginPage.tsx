@@ -56,7 +56,7 @@ function LoginPage() {
                             Register
                         </a>
                     </p>
-                    <p className="text-sm text-gray-500 mt-12">&copy; 2023 CareCompare - All Rights Reserved.</p>
+                    <p className="text-center text-sm text-gray-500 mt-12">&copy; 2023 CareCompare - All Rights Reserved.</p>
                 </div>
             </div>
         </section>

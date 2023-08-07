@@ -1,3 +1,4 @@
+import womenIllustration from '../assets/women-illustration.jpg';
 function LoginPage() {
     const handleFormSubmit = (event:any) => {
         event.preventDefault();
@@ -8,7 +9,7 @@ function LoginPage() {
         <section className="flex flex-col justify-center items-center md:flex-row h-screen ">
             <div className="bg-blue-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
                 <img
-                    src="../assets/women-illustration.jpg"
+                    src={womenIllustration}
                     alt="women illustration" className="w-full h-full object-cover"/>
             </div>
             <div

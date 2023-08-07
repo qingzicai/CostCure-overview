@@ -32,7 +32,7 @@ function DataTable() {
         </tbody>
         <tfoot>
           <tr>
-            <td colSpan="7" className="px-4 py-2 italic text-sm">Data is current as of March 31, 2021.</td>
+            <td colSpan="7" className="px-4 py-2 italic text-sm">Data is current as of Aug 6, 2023.</td>
           </tr>
         </tfoot>
       </table>

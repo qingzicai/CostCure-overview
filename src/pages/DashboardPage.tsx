@@ -6,8 +6,8 @@ import Footer from'../components/Footer.tsx'
 function DashboardPage() {
     return (
         <div className="flex flex-col h-screen w-screen">
-            <div className="flex h-screen w-screen">
-                <div className="w-1/5 space-y-8 pt-20 bg-blue-800">
+            <div className="flex">
+                <div className="w-1/5 space-y-8 pt-20 bg-blue-800 pl-4">
                     <LocationInput/>
                     <ServiceInput/>
                 </div>

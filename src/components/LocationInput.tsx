@@ -3,7 +3,7 @@ import {useState} from 'react';
 function LocationInput() {
     const [location, setLocation] = useState('');
 
-    const handleLocationChange = (event) => {
+    const handleLocationChange = (event:any) => {
         setLocation(event.target.value);
     };
 

@@ -1,7 +1,7 @@
-import LocationInput from '/src/components/LocationInput';
-import ServiceInput from '/src/components//ServiceInput';
-import DataTable from '/src/components//DataTable';
-import Footer from "../components/Footer.tsx";
+import LocationInput from '../components/LocationInput.tsx';
+import ServiceInput from '../components/ServiceInput.tsx';
+import DataTable from '../components/DataTable.tsx';
+import Footer from'../components/Footer.tsx'
 
 function DashboardPage() {
     return (

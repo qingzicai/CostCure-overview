@@ -3,7 +3,7 @@ import {useState} from 'react';
 function ServiceInput() {
     const [service, setService] = useState('');
 
-    const handleServiceChange = (event) => {
+    const handleServiceChange = (event:any) => {
         setService(event.target.value);
     };
 

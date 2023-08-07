@@ -1,5 +1,5 @@
 function LoginPage() {
-    const handleFormSubmit = (event) => {
+    const handleFormSubmit = (event:any) => {
         event.preventDefault();
         // Handle form submission here
     };
@@ -20,11 +20,11 @@ function LoginPage() {
                             <label className="block text-gray-700">Email Address</label>
                             <input type="email" name="" id="" placeholder="Enter Email Address"
                                    className="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
-                                   autofocus autocomplete required/>
+                                    />
                         </div>
                         <div className="mt-4 font-mono">
                             <label className="block text-gray-700">Password</label>
-                            <input type="password" name="" id="" placeholder="Enter Password" minlength="6"
+                            <input type="password" name="" id="" placeholder="Enter Password"
                                    className="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                    required/>
                         </div>

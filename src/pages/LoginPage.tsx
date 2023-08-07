@@ -33,9 +33,8 @@ function LoginPage() {
                                className="text-sm font-semibold text-gray-700 hover:text-blue-700 focus:text-blue-700">Forgot
                                 Password?</a>
                         </div>
-                        <button type="submit"
-                                className="font-mono w-full block bg-blue-500 hover:bg-blue-400 focus:bg-blue-400 text-white font-semibold rounded-lg px-4 py-3 mt-6">Log
-                            In
+                        <button type="submit" className="font-mono w-full block bg-blue-800 hover:bg-blue-400 focus:bg-blue-400 text-white font-semibold rounded-lg px-4 py-3 mt-6">
+                            Log In
                         </button>
                     </form>
                     <hr className="my-6 border-gray-300 w-full"/>
@@ -52,8 +51,9 @@ function LoginPage() {
                         </div>
                     </button>
                     <p className="mt-8 font-mono">Need an account?<br/>
-                        <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold m-2">Create
-                        an account</a>
+                        <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold m-2">
+                            Register
+                        </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-12">&copy; 2023 CareCompare - All Rights Reserved.</p>
                 </div>

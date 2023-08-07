@@ -11,7 +11,7 @@ function LandingPage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen w-screen bg-blue-900">
+    <div className="flex flex-col items-center justify-center h-screen w-screen bg-blue-800">
       <h1 className="text-8xl text-center mb-2 font-mono text-white">CareCompare</h1>
       <p className="text-2xl text-center text-gray-200 mb-8 font-mono">DISCOVER AFFORDABLE CHILD-BIRTH SERVICES</p>
       <div className="flex space-x-4">

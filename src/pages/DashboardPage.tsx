@@ -4,8 +4,8 @@ import DataTable from '/src/components//DataTable';
 
 function DashboardPage() {
   return (
-    <div className="flex">
-      <div className="w-1/5 space-y-4 p-4">
+    <div className="flex h-screen w-screen">
+      <div className="w-1/5 space-y-8 pt-20 bg-blue-800">
         <LocationInput />
         <ServiceInput />
       </div>

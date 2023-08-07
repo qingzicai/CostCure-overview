@@ -9,7 +9,7 @@ function LocationInput() {
 
   return (
     <input
-      className="border-2 border-gray-300 p-2 rounded"
+      className="border-2 focus:border-indigo-700 p-2 rounded"
       type="text"
       value={location}
       onChange={handleLocationChange}
